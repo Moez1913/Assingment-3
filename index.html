@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/dcfface11d.js" crossorigin="anonymous"></script>
     
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
@@ -115,8 +116,172 @@
             </div>
         </section>
     </header>
+
+
     <main>
 
+ <section>
+    <div class="flex justify-between items-center mx-40">
+        <div>
+            <h1 class=" mb-6 text-5xl font-extrabold text-slate-950">Deal of the day</h1>
+            <p class="text-base font-normal text-gray-950">Contrary to popular belief, is not simply random text.<br> It has roots in a piece of classical<br> Latin literature from 45 BC, making it over 2000 years old.</p>
+        </div>
+        
+        <div>
+            <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                <div class="flex flex-col">
+                  <span class="countdown font-mono text-5xl">
+                    <span style="--value:29;"></span> <img src="images/Frame (1).svg" alt="">
+                  </span>
+                  days
+                </div> 
+                <div class="flex flex-col">
+                  <span class="countdown font-mono text-5xl">
+                    <span style="--value:25;"></span> <img src="images/Frame (1).svg">  
+                  </span>
+                  hours
+                </div> 
+                <div class="flex flex-col">
+                  <span class="countdown font-mono text-5xl">
+                    <span style="--value:08;"></span> <img src="images/Frame (1).svg" alt="">
+                  </span>
+                  min
+                </div> 
+                <div class="flex flex-col">
+                  <span class="countdown font-mono text-5xl">
+                    <span style="--value:32;"></span> 
+                  </span>
+                  sec
+                </div>
+              </div>
+        </div>
+     </div>
+     <!-- botom part -->
+     <div class=" mx-40 mt-12 flex gap-4">
+        <div class="card w-96 bg-white rounded-lg shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="images/fruit6.png" alt="Apple" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="text-2xl font-bold text-black card-title mb-10">12.90$ - 18.85$</h2>
+              <p class="mb-4 text-base font-normal text-black">Apples</p>
+              <img class="mb-6" src="images/Group 24.png" alt="">
+              <div class="card-actions">
+                <!-- You can open the modal using ID.showModal() method -->
+<button class="mb-8 text-lg font-normal text-red-500" onclick="my_modal_4.showModal()">Details</button>
+<dialog id="my_modal_4" class="modal">
+  <form method="dialog" class=" modal-box bg-white w-96 max-w-5xl">
+    <img class="mx-auto" src="images/fruit8.png" alt="">
+    <h3 class="font-bold text-black text-lg">Red Dragon</h3>
+    <p class="py-4  ">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+    <div class="modal-action justify-between">  
+         
+        <!-- if there is a button, it will close the modal -->
+        <button class="bg-white rounded-lg h-14 w-36 border-2 border-rose-500 text-red-400 font-black text-xl mb-20">Close</button> 
+        <button class="bg-red-400 rounded-lg h-14 w-36 text-white font-black text-xl mb-20">Buy Now</button>
+ 
+    </div>
+   
+  </form>
+</dialog>
+              </div>
+            </div>
+          </div>
+
+          <div class="card w-96 bg-white rounded-lg shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="images/fruit7.png" alt="Orange" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="text-2xl font-bold text-black card-title mb-10">12.90$ - 18.85$</h2>
+              <p class="mb-4 text-base font-normal text-black">Orange</p>
+              <img class="mb-6" src="images/Group 24.png" alt="">
+              <div class="card-actions">
+                <!-- You can open the modal using ID.showModal() method -->
+<button class="mb-8 text-lg font-normal text-red-500" onclick="my_modal_4.showModal()">Details</button>
+<dialog id="my_modal_5" class="modal">
+  <form method="dialog" class=" modal-box bg-white w-96 max-w-5xl">
+    <img class="mx-auto" src="images/fruit8.png" alt="">
+    <h3 class="font-bold text-black text-lg">Red Dragon</h3>
+    <p class="py-4  ">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+    <div class="modal-action justify-between">  
+         
+        <!-- if there is a button, it will close the modal -->
+        <button class="bg-white rounded-lg h-14 w-36 border-2 border-rose-500 text-red-400 font-black text-xl mb-20">Close</button> 
+        <button class="bg-red-400 rounded-lg h-14 w-36 text-white font-black text-xl mb-20">Buy Now</button>
+ 
+    </div>
+   
+  </form>
+</dialog>
+              </div>
+            </div>
+          </div>
+
+          <div class="card w-96 bg-white rounded-lg shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="images/fruit8.png" alt="Red Dragon" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="text-2xl font-bold text-black card-title mb-10">12.90$ - 18.85$</h2>
+              <p class="mb-4 text-base font-normal text-black">Red Dragon</p>
+              <img class="mb-6" src="images/Group 24.png" alt="">
+              <div class="card-actions">
+                <!-- You can open the modal using ID.showModal() method -->
+<button class="mb-8 text-lg font-normal text-red-500" onclick="my_modal_4.showModal()">Details</button>
+<dialog id="my_modal_6" class="modal">
+  <form method="dialog" class=" modal-box bg-white w-96 max-w-5xl">
+    <img class="mx-auto" src="images/fruit8.png" alt="">
+    <h3 class="font-bold text-black text-lg">Red Dragon</h3>
+    <p class="py-4  ">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+    <div class="modal-action justify-between">  
+         
+        <!-- if there is a button, it will close the modal -->
+        <button class="bg-white rounded-lg h-14 w-36 border-2 border-rose-500 text-red-400 font-black text-xl mb-20">Close</button> 
+        <button class="bg-red-400 rounded-lg h-14 w-36 text-white font-black text-xl mb-20">Buy Now</button>
+ 
+    </div>
+   
+  </form>
+</dialog>
+              </div>
+            </div>
+          </div>
+          <div class="card w-96 bg-white rounded-lg shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="images/fruit9.png" alt="" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="text-2xl font-bold text-black card-title mb-10">12.90$ - 18.85$</h2>
+              <p class="mb-4 text-base font-normal text-black">Banana</p>
+              <img class="mb-6" src="images/Group 24.png" alt="">
+              <div class="card-actions">
+                <!-- You can open the modal using ID.showModal() method -->
+<button class="mb-8 text-lg font-normal text-red-500" onclick="my_modal_4.showModal()">Details</button>
+<dialog id="my_modal_7" class="modal">
+  <form method="dialog" class=" modal-box bg-white w-96 max-w-5xl">
+    <img class="mx-auto" src="images/fruit8.png" alt="">
+    <h3 class="font-bold text-black text-lg">Red Dragon</h3>
+    <p class="py-4  ">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+    <div class="modal-action justify-between">  
+         
+        <!-- if there is a button, it will close the modal -->
+        <button class="bg-white rounded-lg h-14 w-36 border-2 border-rose-500 text-red-400 font-black text-xl mb-20">Close</button> 
+        <button class="bg-red-400 rounded-lg h-14 w-36 text-white font-black text-xl mb-20">Buy Now</button>
+ 
+    </div>
+   
+  </form>
+</dialog>
+              </div>
+            </div>
+          </div>
+     </div>
+     <div class="justify-center text-center mt-6">
+        <button class="bg-red-400 rounded-lg h-14 w-36 text-white font-black text-xl mb-20">Shop All</button>
+     </div>
+ 
+ </section>
     </main>
     <footer>
         
